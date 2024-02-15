@@ -1,0 +1,1 @@
+{"uuid":"df1e54cd-bc99-49ff-bd02-a1fe5de6119a","name":"pack.TestClass.initialize","children":["c84dbd60-3c4d-4836-a167-012657eca745"],"description":"","befores":[{"name":"initialize","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1707855543391,"stop":1707855545366}],"afters":[],"start":1707855543390,"stop":1707855545366}
