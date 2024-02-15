@@ -1,1 +1,0 @@
-{"uuid":"e5a3708d-2b31-48e6-a885-ce217dc1e1dd","name":"pack.TestClass.quit","children":["c84dbd60-3c4d-4836-a167-012657eca745"],"description":"","befores":[],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1707855551271,"stop":1707855551407}],"start":1707855551270,"stop":1707855551407}
