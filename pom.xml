@@ -88,7 +88,9 @@
                 <version>2.12</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>TestNG.xml</suiteXmlFile>
+                        <suiteXmlFile>Testng1.xml</suiteXmlFile>
+                        <suiteXmlFile>Testng2.xml</suiteXmlFile>
+                        <suiteXmlFile>Testng3.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
@@ -136,5 +138,6 @@
 
 
     </dependencies>
+
 
 </project>
