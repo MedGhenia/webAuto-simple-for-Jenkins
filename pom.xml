@@ -37,12 +37,12 @@
 
 
                 <!--                Pour executer un seul class java-->
-                <configuration>
-                    <includes>
-                        <include>TestClass_One.java</include>
-                        <!--                        <include>**/TestClass_One.java</include>-->
-                    </includes>
-                </configuration>
+<!--                <configuration>-->
+<!--                    <includes>-->
+<!--                        <include>TestClass_One.java</include>-->
+<!--                        &lt;!&ndash;                        <include>**/TestClass_One.java</include>&ndash;&gt;-->
+<!--                    </includes>-->
+<!--                </configuration>-->
 
                 <!--                Pour exlure un test class java from les tests a executer -->
 <!--                <configuration>-->
@@ -62,13 +62,13 @@
 
 
                 <!--                Pour executer plusieurs test suite-->
-<!--                <configuration>-->
-<!--                    <suiteXmlFiles>-->
-<!--                        <suiteXmlFile>Testng1.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>Testng2.xml</suiteXmlFile>-->
-<!--                        <suiteXmlFile>Testng3.xml</suiteXmlFile>-->
-<!--                    </suiteXmlFiles>-->
-<!--                </configuration>-->
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>Testng1.xml</suiteXmlFile>
+                        <suiteXmlFile>Testng2.xml</suiteXmlFile>
+                        <suiteXmlFile>Testng3.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
 
                 <!--                Pour executer un test suite with input name of test file-->
 <!--                <configuration>-->
