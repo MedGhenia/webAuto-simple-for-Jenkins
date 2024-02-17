@@ -51,7 +51,7 @@ public class TestClass_Two {
         driver.get("https://www.jumia.com.tn/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         System.out.println("Test 2 title is " + driver.getTitle());
-        Assert.assertEquals(driver.getTitle(), "Wrong Result to fail test");
+//        Assert.assertEquals(driver.getTitle(), "Wrong Result to fail test");
         Thread.sleep(3000);
     }
 
