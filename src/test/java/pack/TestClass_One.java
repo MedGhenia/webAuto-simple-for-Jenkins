@@ -61,7 +61,8 @@ public class TestClass_One {
         driver.get("https://www.nike.com/fr/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         System.out.println("Test 3 title is " + driver.getTitle());
-        Assert.assertEquals(driver.getTitle(), "Nike. Just Do It. Nike FR");
+//        Assert.assertEquals(driver.getTitle(), "Nike. Just Do It. Nike FR");
+        Assert.assertEquals(driver.getTitle(), "Wrong Result to fail test");
         Thread.sleep(3000);
     }
 

@@ -3,6 +3,7 @@ package pack;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -50,6 +51,7 @@ public class TestClass_Two {
         driver.get("https://www.jumia.com.tn/");
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         System.out.println("Test 2 title is " + driver.getTitle());
+        Assert.assertEquals(driver.getTitle(), "Wrong Result to fail test");
         Thread.sleep(3000);
     }
 
