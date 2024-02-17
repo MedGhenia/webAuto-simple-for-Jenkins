@@ -3,12 +3,14 @@ package pack;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public class TestClass {
+public class TestClass_Two {
 
     public static WebDriver driver = null;
 
@@ -25,6 +27,7 @@ public class TestClass {
 
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        System.out.println("TEST CLASS TWO !!!");
     }
 
     @AfterMethod
@@ -58,5 +61,4 @@ public class TestClass {
         System.out.println("Test 3 title is " + driver.getTitle());
         Thread.sleep(3000);
     }
-
 }
