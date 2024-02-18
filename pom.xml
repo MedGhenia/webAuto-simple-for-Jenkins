@@ -62,13 +62,13 @@
 
 
                 <!--                Pour executer plusieurs test suite-->
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>Testng1.xml</suiteXmlFile>
-                        <suiteXmlFile>Testng2.xml</suiteXmlFile>
-                        <suiteXmlFile>Testng3.xml</suiteXmlFile>
-                    </suiteXmlFiles>
-                </configuration>
+<!--                <configuration>-->
+<!--                    <suiteXmlFiles>-->
+<!--                        <suiteXmlFile>Testng1.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>Testng2.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>Testng3.xml</suiteXmlFile>-->
+<!--                    </suiteXmlFiles>-->
+<!--                </configuration>-->
 
                 <!--                Pour executer un test suite with input name of test file-->
 <!--                <configuration>-->
@@ -76,6 +76,23 @@
 <!--                        <suiteXmlFile>${testngFile}</suiteXmlFile>-->
 <!--                    </suiteXmlFiles>-->
 <!--                </configuration>-->
+
+<!--                Pour executer un fichier xml aui contient 3 sous suites ( sanity - regression - coverage ...)-->
+                                <configuration>
+                                    <suiteXmlFiles>
+                                        <suiteXmlFile>automation.xml</suiteXmlFile>
+                                    </suiteXmlFiles>
+                                </configuration>
+
+<!--                Pour executer des test suites en Parallele-->
+<!--                <configuration>-->
+<!--                    <suiteXmlFiles>-->
+<!--                        <suiteXmlFile>XMLs/sanity.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>XMLs/regression.xml</suiteXmlFile>-->
+<!--                        <suiteXmlFile>XMLs/coverage.xml</suiteXmlFile>-->
+<!--                    </suiteXmlFiles>-->
+<!--                </configuration>-->
+
 
             </plugin>
         </plugins>
